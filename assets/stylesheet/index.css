@@ -2,12 +2,18 @@ body {
     background-color: #EFEFEF
 }
 
-header {
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #fff
+aside {
+    width: fit-content;
+    background-color: red;
+    float: right;
+}
+
+main {
+    margin-top: 15px;
+}
+
+li {
+    display: inline;
 }
 
 .button {
@@ -17,6 +23,23 @@ header {
 .thumbnailvideos {
     width: 200px;
     height: 100px;
+}
+
+.videodesc {
+    float: right
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff
+}
+
+.lists {
+    list-style: none;
+    display: inline
 }
 
 #maincontainer {
@@ -62,18 +85,14 @@ header {
 }
 
 #sectionfirstheader {
-   
     display: flex;
     background-color: #167AC6;
     justify-content: space-between;
-    
 }
-
-
 
 #sectionsecondheader {
     display: flex;
-    border: 2px solid blue;
+    border: 2px solid #167AC6;
     justify-content: space-between;
 }
 
@@ -81,3 +100,23 @@ header {
     color: #167AC6;
 }
 
+#headernavbaraside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#listinsidesectionnavbaraside {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#upnextheader {
+    margin: 0;
+    height: fit-content;
+    font-family: bold;
+}
