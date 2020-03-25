@@ -1,0 +1,58 @@
+body {
+    background-color: #EFEFEF
+}
+
+header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff
+}
+
+.button {
+    padding: 7px 15px;
+}
+
+.thumbnailvideos {
+    width: 200px;
+    height: 100px;
+}
+
+#maincontainer {
+    background-color: #fff;
+    width: 80%;
+    margin: 10% auto;
+    border: 5px solid #000000
+}
+
+#firstheader {
+    justify-content: space-around
+}
+
+#youtubelogo {
+    width: 150px;
+    height: 20px;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: stretch
+}
+
+#input {
+    background-color: #EFEFEF;
+    width: 500px;
+    padding: 5px 15px;
+}
+
+#signin {
+    background-color: #167AC6;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+#containingfirstheader {
+    margin: 0 5%;
+}
