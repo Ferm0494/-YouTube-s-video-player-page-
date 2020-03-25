@@ -53,6 +53,31 @@ header {
     border: 0;
 }
 
+#secondheader {
+    margin-top: 10px;
+}
+
 #containingfirstheader {
     margin: 0 5%;
 }
+
+#sectionfirstheader {
+   
+    display: flex;
+    background-color: #167AC6;
+    justify-content: space-between;
+    
+}
+
+
+
+#sectionsecondheader {
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-between;
+}
+
+#changepreference {
+    color: #167AC6;
+}
+
