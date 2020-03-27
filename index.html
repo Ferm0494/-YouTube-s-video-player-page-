@@ -19,7 +19,7 @@
             <div class="header" id="firstheader">
 
                 <i class="fa fa-bars" aria-hidden="true"></i>
-                <img id="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
+                <img class="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
 
                 <div id="searchbar">
                     <input id="input" type="text" placeholder="Search...">
@@ -51,8 +51,52 @@
 
         </header>
         <main>
+
             <!-- Youtube Main video -->
-            <iframe src="https://www.youtube.com/embed/lsuaFowZMjM" allowfullscreen></iframe>
+            <div id="firstcolumn">
+                <iframe src="https://www.youtube.com/embed/lsuaFowZMjM" allowfullscreen></iframe>
+
+                <div id="principaldiv">
+                    <div>
+                        <div>
+                            <h5> Contributing to open source part I...</h5>
+
+                        </div>
+                        <!-- Line... -->
+                        <hr>
+                        <!-- Line -->
+                        <div>
+                            <label>add to..</label>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <hr>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-share" aria-hidden="true"></i>
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                        <h5>Published on Feb 27, 2014</h5>
+                        <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo ", or even touching Git
+                            outside of Github. I'll also describe what k inds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project,
+                            a free online curriculum for learning web development with R uby on Rails. You can find more information about th a t project at http://theodinproject.com.</p>
+                        <hr>
+                        <p>Show more....</p>
+
+                    </div>
+
+                    <div>
+
+                        <i class="fa fa-circle-o-notch fa-spin "></i>Loading..
+
+                    </div>
+
+
+                </div>
+
+            </div>
 
             <aside>
 
@@ -161,82 +205,41 @@
                         <p>Show more..</p>
                     </footer>
 
-
-
-
-
-
-
                 </nav>
 
             </aside>
 
+
+
         </main>
-        <div>
-            <div>
-                <div>
-                    <h5> Contributing to open source part I...</h5>
 
-                </div>
-                <!-- Line... -->
-                <hr>
-                <!-- Line -->
-                <div>
-                    <label>add to..</label>
+        <footer id="mainfooter">
 
-                </div>
+            <div class="footerdivs">
+                <div id="options">
+                    <img class="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
 
-            </div>
-
-            <div>
-                <hr>
-                <i class="fa fa-plus" aria-hidden="true"></i>
-                <i class="fa fa-share" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <h5>Published on Feb 27, 2014</h5>
-                <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo ", or even touching Git outside
-                    of Github. I'll also describe what k inds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online
-                    curriculum for learning web development with R uby on Rails. You can find more information about th a t project at http://theodinproject.com.</p>
-                <hr>
-                <p>Show more....</p>
-
-            </div>
-
-            <div>
-
-                <i class="fa fa-circle-o-notch fa-spin "></i>Loading..
-
-            </div>
-
-
-        </div>
-
-
-
-        <footer>
-            
-            <div>
-                <hr>
-                <img id="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
-                <select class="fa" style="color: gray">
+                    <select class="fa" style="color: gray">
                     
                     <option class="fas fa-user">&#xf007; Language English..</option>
                 </select>
-                <select>
+                    <select>
                     <option>Location: Netherlands</option>
                 </select>
-                <select>
+                    <select>
                     <option>Restricted Mode: Off</option>
                 </select>
-                
-                <button><i class="fa fa-hourglass-end" aria-hidden="true"></i>History</button> 
-                <button><i class="fa fa-question-circle" aria-hidden="true"></i>Help</button>
+
+                    <button><i class="fa fa-hourglass-end" aria-hidden="true"></i>History</button>
+                    <button><i class="fa fa-question-circle" aria-hidden="true"></i>Help</button>
+
+                </div>
+
             </div>
             <hr>
             <div>
                 <a>
-                    <ul class="secondlineoffooter">
+                    <ul id="secondlineoffooter">
                         <li>About</li>
                         <li>Press</li>
                         <li>Copyright</li>
@@ -245,7 +248,7 @@
                         <li>Developers</li>
                     </ul>
 
-                    <ul class="thirdlineoffooter">
+                    <ul id="firstlineoffooter">
                         <li>Terms</li>
                         <li>Privacy</li>
                         <li>Policy&amp;Safety</li>
