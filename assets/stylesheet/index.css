@@ -112,14 +112,11 @@ p {
 
 .whitediv {
     background-color: #fff;
-
 }
 
 .blueline {
     border: 2px solid cyan;
 }
-
-
 
 #maincontainer {
     background-color: #EFEFEF;
@@ -194,7 +191,7 @@ p {
 }
 
 .showmore {
-    margin: 0, 10%;
+    /* margin: 0 10%; */
     color: #CDCDCD;
     text-align: center;
     width: inherit;
