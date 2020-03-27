@@ -217,3 +217,23 @@ p {
     width: 60%;
     height: fit-content;
 }
+
+#videodescription {
+    text-align: left;
+}
+
+#likeiconline{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#channeliconline{
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscribebutton {
+    height: 50px;
+    width: 100px;
+}
