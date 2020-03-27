@@ -21,11 +21,16 @@ main {
     margin-top: 15px;
 }
 
+i {
+    color: #818282;
+}
+
 li {
     display: inline;
 }
 
-h4 {
+h4,
+h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -78,6 +83,10 @@ p {
     background-color: #fff
 }
 
+.iwhite {
+    color: #fff
+}
+
 .lists {
     list-style: none;
     display: inline;
@@ -94,6 +103,19 @@ p {
 
 .footerdivs {
     margin-left: 5%;
+}
+
+.removepndb {
+    padding: 0;
+    margin: 0;
+}
+
+.whitediv {
+    background-color: #fff
+}
+
+.blueline {
+    border: 2px solid cyan;
 }
 
 #maincontainer {
@@ -208,12 +230,10 @@ p {
 }
 
 #principaldiv {
-    background-color: blue;
     width: 100%;
 }
 
 #firstcolumn {
-    background-color: green;
     width: 60%;
     height: fit-content;
 }
@@ -222,18 +242,41 @@ p {
     text-align: left;
 }
 
-#likeiconline{
+#likeiconline {
     display: flex;
     justify-content: space-between;
-
 }
 
-#channeliconline{
+#channeliconline {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 #subscribebutton {
-    height: 50px;
-    width: 100px;
+    height: 25px;
+    width: 75px;
 }
+
+#spancontainingtitlesubbutton {
+    float: right;
+    margin: 5px;
+}
+
+#more {
+    width: 10%;
+    height: 30%;
+}
+
+#buttoncontroller1 {
+    width: 50%;
+}
+
+#desc {
+    margin-top: 15px;
+}
+
+
+/* #containersubslogo {
+    padding: 10px;
+} */
