@@ -15,8 +15,8 @@
 <body>
 
     <div id="maincontainer">
-        <section id="containingfirstheader">
-            <header class="header" id="firstheader">
+        <header id="containingfirstheader">
+            <div class="header" id="firstheader">
 
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <img id="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
@@ -30,29 +30,29 @@
                 <i class="fa fa-upload" aria-hidden="true"></i>
                 <button id="signin" class="button">Sign in</button>
 
-            </header>
-        </section>
+            </div>
+        </header>
 
 
-        <section id="secondheader">
-            <header class="header" id="sectionfirstheader">
+        <header id="secondheader">
+            <div class="header" id="sectionfirstheader">
                 <div>
                     <i class="fa fa-user" aria-hidden="true"><span>Choose Your language</span></i>
                 </div>
                 <div>
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
-            </header>
+            </div>
 
-            <header class="header" id="sectionsecondheader">
+            <div class="header" id="sectionsecondheader">
                 <p>You've viewing You Tube in English (US). You can <span id="changepreference">change this preference below</span></p>
                 <a href="">Learn more</a>
-            </header>
+            </div>
 
-        </section>
+        </header>
         <main>
             <!-- Youtube Main video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lsuaFowZMjM" allowfulscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/lsuaFowZMjM" allowfullscreen></iframe>
 
             <aside>
 
@@ -79,11 +79,12 @@
                 </header>
                 <nav>
 
-                    <div>
-                        <img class="thumbnailvideos" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
@@ -92,11 +93,12 @@
                     </div>
 
                     <hr>
-                    <div>
-                        <img class="thumbnailvideos " src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
@@ -104,22 +106,24 @@
 
                     </div>
 
-                    <div>
-                        <img class="thumbnailvideos " src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
                         </section>
 
                     </div>
-                    <div>
-                        <img class="thumbnailvideos " src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
@@ -127,22 +131,24 @@
 
                     </div>
 
-                    <div>
-                        <img class="thumbnailvideos " src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
                         </section>
 
                     </div>
-                    <div>
-                        <img class="thumbnailvideos " src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <div class="thumbnailvideos ">
+                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
                         <section class="videodesc">
                             <h4>Contributing to open Source part II : The real way
                             </h4>
+                            <br>
                             <p>The odin project</p>
                             <p>29,985 views</p>
 
@@ -150,7 +156,10 @@
 
                     </div>
                     <hr>
-                    <p>Show more...</p>
+
+                    <footer id="showmore">
+                        <p>Show more..</p>
+                    </footer>
 
 
 
@@ -166,7 +175,7 @@
         <div>
             <div>
                 <div>
-                    <h5> Contributing to open source part I...</h6>
+                    <h5> Contributing to open source part I...</h5>
 
                 </div>
                 <!-- Line... -->

@@ -1,14 +1,23 @@
 body {
-    background-color: #EFEFEF
+    background-color: #EFEFEF;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
 }
 
 aside {
-    width: fit-content;
-    background-color: red;
+    width: 37%;
+    background-color: #fff;
     float: right;
 }
 
 main {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: fit-content;
     margin-top: 15px;
 }
 
@@ -16,17 +25,44 @@ li {
     display: inline;
 }
 
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    /* width="60%" height="300px;" */
+    width: 60%;
+    height: 300px;
+}
+
 .button {
     padding: 7px 15px;
 }
 
 .thumbnailvideos {
-    width: 200px;
-    height: 100px;
+    width: inherit;
+    height: 170px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .videodesc {
-    float: right
+    width: fit-content;
+    height: fit-content;
+    float: right;
+}
+
+.videodesc h4,
+p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.videodesc p {
+    color: #A4A4A4;
 }
 
 .header {
@@ -39,33 +75,39 @@ li {
 
 .lists {
     list-style: none;
-    display: inline
+    display: inline;
+}
+
+.imgthumb {
+    width: 50%;
+    height: 60%;
 }
 
 #maincontainer {
-    background-color: #fff;
+    background-color: #EFEFEF;
     width: 80%;
     margin: 10% auto;
-    border: 5px solid #000000
+    position: static;
+    border: 5px solid #000000;
 }
 
 #firstheader {
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 #youtubelogo {
-    width: 150px;
-    height: 20px;
+    width: 10%;
+    height: 70%;
 }
 
 #searchbar {
+    width: 50%;
     display: flex;
-    justify-content: stretch
 }
 
 #input {
     background-color: #EFEFEF;
-    width: 500px;
+    width: 100%;
     padding: 5px 15px;
 }
 
@@ -78,10 +120,6 @@ li {
 
 #secondheader {
     margin-top: 10px;
-}
-
-#containingfirstheader {
-    margin: 0 5%;
 }
 
 #sectionfirstheader {
@@ -103,7 +141,7 @@ li {
 #headernavbaraside {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 #listinsidesectionnavbaraside {
@@ -112,11 +150,21 @@ li {
     height: fit-content;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 #upnextheader {
     margin: 0;
     height: fit-content;
-    font-family: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#showmore {
+    margin: 0, 10%;
+    color: #CDCDCD;
+    text-align: center;
+    width: inherit;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
