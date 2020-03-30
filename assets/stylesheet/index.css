@@ -1,10 +1,17 @@
-body {
-    background-color: #EFEFEF;
-}
+/* body {
+    background-color: red;
+} */
 
 hr {
     padding: 0;
     margin: 0;
+    border: 0.5px thick #909090
+}
+
+span {
+    color: #909090;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside {
@@ -31,6 +38,11 @@ iframe {
     height: 400px;
 }
 
+.div60 {
+    width: 60%;
+    height: fit-content;
+}
+
 .profile {
     border-radius: 50%;
 }
@@ -49,11 +61,6 @@ iframe {
     height: 40%;
 }
 
-.fa {
-    width: 100%;
-
-}
-
 .button {
     padding: 7px 15px;
 }
@@ -67,16 +74,6 @@ iframe {
     align-items: center;
 }
 
-.videodesc {
-    width: fit-content;
-    height: fit-content;
-    float: right;
-}
-
-.videodesc p {
-    color: #A4A4A4;
-}
-
 .header {
     padding: 8px;
     height: fit-content;
@@ -85,6 +82,16 @@ iframe {
     align-items: center;
     background-color: #fff;
     justify-content: space-around;
+}
+
+.header2 {
+    padding: 8px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
 }
 
 .iwhite {
@@ -116,7 +123,6 @@ iframe {
 
 .whitediv {
     background-color: #fff;
-
 }
 
 .blueline {
@@ -127,14 +133,24 @@ iframe {
     width: 20%
 }
 
+.videodesc {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+}
+
+.videodesc p {
+    color: #909090;
+}
+
 
 /* #firstheader {
     justify-content: space-around;
 } */
 
 #searchbar {
-    width: 50%;
     display: flex;
+    width: 50%;
 }
 
 #input {
@@ -239,19 +255,15 @@ iframe {
 }
 
 #videodescription {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-
 #channeliconline {
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-}
-
-#subscribebutton {
-    height: 25px;
-    width: 85px;
+    align-items: center;
 }
 
 #spancontainingtitlesubbutton {
@@ -274,6 +286,12 @@ iframe {
 }
 
 
-/* #containersubslogo {
-    padding: 10px;
+/* .videodesc {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+}
+
+.videodesc p {
+    color: #A4A4A4;
 } */
