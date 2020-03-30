@@ -10,289 +10,312 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/stylesheet/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body class="removepndb">
 
-    <div id="maincontainer">
-        <header id="containingfirstheader">
-            <div class="header" id="firstheader">
 
-                <i class="fa fa-bars" aria-hidden="true"></i>
+    <header>
+        <div class="header" id="firstheader">
+
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <img class="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
+
+            <div id="searchbar">
+                <input id="input" type="text" placeholder="Search...">
+                <button class="button"><i class="fa fa-search" aria-hidden="true">
+            </i></button>
+            </div>
+
+            <div class="header iconsdivwidth">
+
+                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                <span class="material-icons">
+                    apps
+                    </span>
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <img class="profile" src="./assets//images/t.jpeg" alt="" width="10%" height="10%">
+            </div>
+
+        </div>
+    </header>
+
+
+    <header id="secondheader" class="staticpbm">
+        <div class="header paddinghorizontal" id="sectionfirstheader">
+            <div>
+                <i class="fa fa-user iwhite" aria-hidden="true"><span>Choose Your language</span></i>
+            </div>
+            <div>
+                <i class="fa fa-times iwhite" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="header paddinghorizontal" id="sectionsecondheader">
+            <p>You've viewing You Tube in English (US). You can <span id="changepreference">change this preference below</span></p>
+            <a href="">Learn more</a>
+        </div>
+
+    </header>
+    <div id="main-container" class="staticpbm ">
+
+        <!-- Youtube Main video -->
+        <div id="youtubevideodiv">
+            <iframe src="https://www.youtube.com/embed/lsuaFowZMjM" allowfullscreen></iframe>
+
+            <div>
+                <div>
+                    <div class="whitediv">
+                        <h3 class="button"> Contributing to open source part I...</h3>
+                        <div id="channeliconline">
+
+                            <div class="button">
+
+                                <img class="channellogo" src="./assets/images/t.jpeg" alt="channellogo">
+
+                                <div id="spancontainingtitlesubbutton">
+                                    <h4 class="removepndb">The Odin Project</h4>
+                                    <img class="removepndb" id="subscribebutton" src="./assets/images/subscribebutton.png" alt="subscribebutton.png">
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="button">
+                                <p>50,016 views</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Line... -->
+                    <hr>
+                    <!-- Line -->
+
+                </div>
+
+                <div>
+                    <hr>
+                    <div class="button whitediv" id="likeiconline">
+                        <div id="buttoncontroller1">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <span>Add to</span>
+                            <i class="fa fa-share" aria-hidden="true"></i>
+                            <span>Share</span>
+                            <span class="material-icons">
+                                playlist_add
+                                </span>
+
+                            <span>Save</span>
+                            <span class="material-icons">
+                                more_horiz
+                            </span>
+
+
+
+                        </div>
+
+                        <div>
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            <span>359</span>
+                            <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                            <span>14</span>
+                        </div>
+                    </div>
+                    <div class="whitediv button staticpbm ">
+                        <h4>Published on Feb 27, 2014</h4>
+                        <p id="videodescription">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo ", or even touching Git
+                            outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project,
+                            a free online curriculum for learning web development with Ruby on Rails . You can find more information ab out th a t project at http://theodinproject.com.</p>
+
+                        <hr>
+                        <p class="showmore">Show more....</p>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="whitediv showmore" id="loading">
+
+                    <i class="fa fa-circle-o-notch fa-spin "></i>Loading..
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <aside class="staticpbm">
+
+            <header id="headernavbaraside">
+                <h5 id="upnextheader">Up next</h5>
+                <ul id="listinsidesectionnavbaraside" class=" lists">
+                    <li class="font">Autoplay</li>
+                    <li>
+                        <a href=" ">
+                            <i class="fa fa-info-circle "></i>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <img src="./assets/images/toggle-switch.png " alt="Autoplay ">
+
+                    </li>
+
+                </ul>
+
+            </header>
+            <nav>
+
+                <div class="thumbnailvideos">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+
+                <hr>
+                <div class="thumbnailvideos">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+
+                <div class="thumbnailvideos">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+                <div class="thumbnailvideos">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+
+                <div class="thumbnailvideos">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+                <div class="thumbnailvideos ">
+                    <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
+                    <section class="videodesc">
+                        <h4>Contributing to open Source part II : The real way
+                        </h4>
+                        <br>
+                        <p>The odin project</p>
+                        <p>29,985 views</p>
+
+                    </section>
+
+                </div>
+                <hr>
+
+                <footer class="showmore">
+                    <p>Show more..</p>
+                </footer>
+
+            </nav>
+
+        </aside>
+
+
+
+
+
+    </div>
+
+
+
+    <footer id="mainfooter">
+
+        <div class="footerdivs">
+            <div id="options">
                 <img class="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
 
-                <div id="searchbar">
-                    <input id="input" type="text" placeholder="Search...">
-                    <button class="button"><i class="fa fa-search" aria-hidden="true">
-            </i></button>
-                </div>
-
-                <i class="fa fa-upload" aria-hidden="true"></i>
-                <button id="signin" class="button">Sign in</button>
-
-            </div>
-        </header>
-
-
-        <header id="secondheader">
-            <div class="header" id="sectionfirstheader">
-                <div>
-                    <i class="fa fa-user iwhite" aria-hidden="true"><span>Choose Your language</span></i>
-                </div>
-                <div>
-                    <i class="fa fa-times iwhite" aria-hidden="true"></i>
-                </div>
-            </div>
-
-            <div class="header" id="sectionsecondheader">
-                <p>You've viewing You Tube in English (US). You can <span id="changepreference">change this preference below</span></p>
-                <a href="">Learn more</a>
-            </div>
-
-        </header>
-        <main>
-
-            <!-- Youtube Main video -->
-            <div id="firstcolumn">
-                <iframe src="https://www.youtube.com/embed/lsuaFowZMjM" allowfullscreen></iframe>
-
-                <div id="principaldiv">
-                    <div>
-                        <div class="whitediv">
-                            <h3 class="button"> Contributing to open source part I...</h3>
-                            <div id="channeliconline">
-
-                                <div class="button">
-
-                                    <img class="channellogo" src="./assets/images/t.jpeg" alt="channellogo">
-
-                                    <div id="spancontainingtitlesubbutton">
-                                        <h4 class="removepndb">The Odin Project</h4>
-                                        <img class="removepndb" id="subscribebutton" src="./assets/images/subscribebutton.png" alt="subscribebutton.png">
-
-                                    </div>
-
-                                </div>
-
-
-                                <div class="button">
-                                    <p>50,016 views</p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- Line... -->
-                        <hr>
-                        <!-- Line -->
-
-                    </div>
-
-                    <div>
-                        <hr>
-                        <div class="button whitediv" id="likeiconline">
-                            <div id="buttoncontroller1">
-                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                <span>Add to</span>
-                                <i class="fa fa-share" aria-hidden="true"></i>
-                                <span>Share</span>
-                                <img id="more" src="./assets//images/more.png" alt="more.png">
-                                <span>More</span>
-
-                            </div>
-
-                            <div>
-                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                <span>359</span>
-                                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                                <span>14</span>
-                            </div>
-                        </div>
-                        <div class="whitediv button" id="desc">
-                            <h4>Published on Feb 27, 2014</h4>
-                            <p id="videodescription">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo ", or even touching
-                                Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin
-                                Project, a free online curriculum for learning web development with Ruby on Rails . You can find more information ab out th a t project at http://theodinproject.com.</p>
-
-                            <hr>
-                            <p class="showmore">Show more....</p>
-                        </div>
-                        <hr>
-                    </div>
-
-                    <div class="whitediv showmore" id="loading">
-
-                        <i class="fa fa-circle-o-notch fa-spin "></i>Loading..
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-            <aside>
-
-                <header id="headernavbaraside">
-                    <h5 id="upnextheader">Up next</h5>
-                    <ul id="listinsidesectionnavbaraside" class=" lists">
-                        <li>Autoplay</li>
-                        <li>
-                            <a href=" ">
-                                <i class="fa fa-info-circle "></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <img src="./assets/images/toggle-switch.png " alt="Autoplay ">
-
-                        </li>
-
-                    </ul>
-
-                </header>
-                <nav>
-
-                    <div class="thumbnailvideos">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-
-                    <hr>
-                    <div class="thumbnailvideos">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-
-                    <div class="thumbnailvideos">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-                    <div class="thumbnailvideos">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-
-                    <div class="thumbnailvideos">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-                    <div class="thumbnailvideos ">
-                        <img class="imgthumb" src="./assets/images/video.jpg " alt="Youtube Video Thuymbnail ">
-                        <section class="videodesc">
-                            <h4>Contributing to open Source part II : The real way
-                            </h4>
-                            <br>
-                            <p>The odin project</p>
-                            <p>29,985 views</p>
-
-                        </section>
-
-                    </div>
-                    <hr>
-
-                    <footer class="showmore">
-                        <p>Show more..</p>
-                    </footer>
-
-                </nav>
-
-            </aside>
-
-
-
-        </main>
-
-        <footer id="mainfooter">
-
-            <div class="footerdivs">
-                <div id="options">
-                    <img class="youtubelogo" src="./assets/images/youtubelogo.png" alt="youtubelogo">
-
-                    <select class="fa" style="color: gray">
+                <select class="fa" style="color: gray">
                     
-                    <option class="fas fa-user">&#xf007; Language English..</option>
+                    <option class="fas fa-user">  Language English..</option>
                 </select>
-                    <select>
+                <select>
                     <option>Location: Netherlands</option>
                 </select>
-                    <select>
+                <select>
                     <option>Restricted Mode: Off</option>
                 </select>
 
-                    <button><i class="fa fa-hourglass-end" aria-hidden="true"></i>History</button>
-                    <button><i class="fa fa-question-circle" aria-hidden="true"></i>Help</button>
-
-                </div>
+                <button><i class="fa fa-hourglass-end" aria-hidden="true"></i>History</button>
+                <button><i class="fa fa-question-circle" aria-hidden="true"></i>Help</button>
 
             </div>
-            <hr>
-            <div>
-                <a>
-                    <ul id="secondlineoffooter">
-                        <li>About</li>
-                        <li>Press</li>
-                        <li>Copyright</li>
-                        <li>Creators</li>
-                        <li>Advertise</li>
-                        <li>Developers</li>
-                    </ul>
 
-                    <ul id="firstlineoffooter">
-                        <li>Terms</li>
-                        <li>Privacy</li>
-                        <li>Policy&amp;Safety</li>
-                        <li>Test new features</li>
-                    </ul>
 
-                </a>
 
-            </div>
-        </footer>
-    </div>
+
+
+        </div>
+        <hr>
+        <div>
+            <a>
+                <ul id="secondlineoffooter">
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Copyright</li>
+                    <li>Creators</li>
+                    <li>Advertise</li>
+                    <li>Developers</li>
+                </ul>
+
+                <ul id="firstlineoffooter">
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Policy&amp;Safety</li>
+                    <li>Test new features</li>
+                </ul>
+
+            </a>
+
+        </div>
+    </footer>
 
 
 
