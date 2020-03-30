@@ -49,6 +49,11 @@ iframe {
     height: 40%;
 }
 
+.fa {
+    width: 100%;
+
+}
+
 .button {
     padding: 7px 15px;
 }
@@ -111,6 +116,7 @@ iframe {
 
 .whitediv {
     background-color: #fff;
+
 }
 
 .blueline {
@@ -236,10 +242,6 @@ iframe {
     text-align: left;
 }
 
-#likeiconline {
-    display: flex;
-    justify-content: space-between;
-}
 
 #channeliconline {
     display: flex;
@@ -255,10 +257,6 @@ iframe {
 #spancontainingtitlesubbutton {
     float: right;
     margin: 5px;
-}
-
-#buttoncontroller1 {
-    width: 50%;
 }
 
 #loading {
