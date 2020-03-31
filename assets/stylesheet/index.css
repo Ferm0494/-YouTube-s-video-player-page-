@@ -1,0 +1,273 @@
+hr {
+    padding: 0;
+    margin: 0;
+    border: 0.5px thick #909090
+}
+
+span {
+    color: #909090;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    width: 30%;
+    background-color: #fff;
+}
+
+i {
+    color: #818282;
+}
+
+li {
+    display: inline;
+}
+
+h4,
+h3,
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.div60 {
+    width: 60%;
+    height: fit-content;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.paddinghorizontal {
+    padding: 0 10px;
+}
+
+.staticpbm {
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+
+.youtubelogo {
+    width: 7%;
+    height: 40%;
+}
+
+.button {
+    padding: 7px 15px;
+}
+
+.thumbnailvideos {
+    width: inherit;
+    height: 170px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    padding: 8px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+.header2 {
+    padding: 8px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.iwhite {
+    color: #fff
+}
+
+.lists {
+    list-style: none;
+    display: inline;
+}
+
+.imgthumb {
+    width: 50%;
+    height: 60%;
+}
+
+.thirdlineoffooter {
+    color: #A4A4A4;
+}
+
+.footerdivs {
+    margin-left: 5%;
+}
+
+.removepndb {
+    padding: 0;
+    margin: 0;
+}
+
+.whitediv {
+    background-color: #fff;
+}
+
+.blueline {
+    border: 2px solid cyan;
+}
+
+.iconsdivwidth {
+    width: 20%
+}
+
+.videodesc {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+}
+
+.videodesc p {
+    color: #909090;
+}
+
+.showmore {
+    /* margin: 0 10%; */
+    color: #CDCDCD;
+    text-align: center;
+    width: inherit;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whitediv {
+    background-color: #fff;
+}
+
+#searchbar {
+    display: flex;
+    width: 50%;
+}
+
+#input {
+    background-color: #EFEFEF;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+#sectionfirstheader {
+    display: flex;
+    background-color: #167AC6;
+    justify-content: space-between;
+}
+
+#sectionsecondheader {
+    display: flex;
+    border: 2px solid #167AC6;
+    justify-content: space-between;
+}
+
+#changepreference {
+    color: #167AC6;
+}
+
+#headernavbaraside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listinsidesectionnavbaraside {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#upnextheader {
+    margin: 0;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#mainfooter {
+    padding: 17px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+#options {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#secondlineoffooter {
+    width: 45%;
+    display: flex;
+    color: #6F6F6F;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+#firstlineoffooter {
+    width: 45%;
+    display: flex;
+    color: #6F6F6F;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#principaldiv {
+    width: 60%;
+}
+
+#firstcolumn {
+    width: 60%;
+    height: fit-content;
+}
+
+#videodescription {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#channeliconline {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spancontainingtitlesubbutton {
+    float: right;
+    margin: 5px;
+}
+
+#loading {
+    padding: 70px 0;
+    margin-top: 10px;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-around
+}
+
+#youtubevideodiv {
+    width: 60%
+}
