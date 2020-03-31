@@ -6,8 +6,8 @@
 
 ```Branch is on development```
 
-![screenshot](./assets/images/lol.png)
-![screenshot](./assets/images/lol2.png)
+![screenshot](./assets/images/first.png)
+![screenshot](./assets/images/second.png)
 
 ## Authors
 
